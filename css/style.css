@@ -47,6 +47,8 @@ ul {
 .container2{
   background-image: url(../img/space2.jpeg);
   padding-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .container2 > div{
