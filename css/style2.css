@@ -13,8 +13,6 @@ body{
   body {margin-top: 150px;
   margin-left: 10px;
   margin-right: 10px;}
-
-
 }
 
 header{
@@ -22,6 +20,7 @@ header{
   /*Gör att headern alltid visas på toppen av sidan, oavsett hur långt man scrollar*/
   width: 100%;
   top: 0;
+  left: 0;
 }
 
 h1 {
