@@ -5,6 +5,7 @@ body{
   /*Gömmer den horisontella scroll baren, av någon anledning är headern bredare än sidan
   vilket gör att det annars går att scrolla på åt sidleds vilket gör att tomt område runt
   resten på sidan visas*/
+  background: url(../img/space2.jpeg);
 }
 
 .responsive{
