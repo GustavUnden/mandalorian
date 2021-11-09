@@ -1,0 +1,111 @@
+body{
+  padding: 0;
+  margin: 0;
+  margin-top: 230px;
+  /*overflow-x: hidden; löste detta problem
+  /*Gömmer den horisontella scroll baren, av någon anledning är headern bredare än sidan
+  vilket gör att det annars går att scrolla på åt sidleds vilket gör att tomt område runt
+  resten på sidan visas*/
+  background: url(../img/space2.jpeg);
+}
+
+@media only screen and (max-width: 375px){
+  body {margin-top: 150px;}
+}
+
+header{
+  position: fixed;
+  /*Gör att headern alltid visas på toppen av sidan, oavsett hur långt man scrollar*/
+  width: 100%;
+  top: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-image: url(../img/space.jpg);
+  border-bottom: solid;
+  border-color: rgb(126, 118, 74);
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(../img/space.jpg);
+  border-bottom: solid;
+  border-color: rgb(126, 118, 74);
+}
+
+
+.container > div {
+  border: solid;
+  border-color:rgb(33, 45, 119);
+}
+
+.container > div >img {
+  border-bottom: solid;
+  border-color:rgb(33, 45, 119);
+}
+
+
+footer {
+  background-image: url(../img/space.jpg);
+  margin-top: 30px;
+  height: 150px;
+  width: 100%;
+  border-top: solid;
+  border-color: rgb(126, 118, 74);
+}
+
+a {
+  padding-left: 20px;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p,
+h3 {
+  color: white;
+  padding-left: 15px;
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.responsive {
+  height: auto;
+  width: 65%;
+}
+/*Gör min bild i headern responsiv*/
+
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  /*Gör så att det inte blir någon linje under länken*/
+}
+
+li a:hover {
+  background-color: rgba(43, 56, 131, 0.65);
+}
+/*När man har pekaren över länken så blir bakgrunden på länken den färg jag angivit*/

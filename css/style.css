@@ -1,0 +1,114 @@
+body{
+  padding: 0;
+  margin: 0;
+  /*overflow-x: hidden; löste detta problem
+  /*Gömmer den horisontella scroll baren, av någon anledning är headern bredare än sidan
+  vilket gör att det annars går att scrolla på åt sidleds vilket gör att tomt område runt
+  resten på sidan visas*/
+}
+
+.responsive{
+  height: auto;
+  width: 65%;
+}
+/*Gör min bild i headern responsiv*/
+
+header{
+  position: fixed;
+  /*Gör att headern alltid visas på toppen av sidan, oavsett hur långt man scrollar*/
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  background-image: url(../img/space.jpg);
+  border-bottom: solid;
+  border-color: rgb(126, 118, 74);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(../img/space.jpg);
+  border-bottom: solid;
+  border-color: rgb(126, 118, 74);
+}
+
+
+.background{
+  background: url(../img/background.jpeg) center center fixed;
+  background-size: cover;
+}
+
+
+.container2{
+  background-image: url(../img/space2.jpeg);
+  padding-bottom: 30px;
+}
+
+.container2 > div{
+  border: solid;
+  border-color: rgb(33, 45, 119);
+  border-width: 2px;
+}
+
+.container2 > div > img{
+  height: 100%;
+}
+
+.chapters{
+  height: auto;
+  width: 100%;
+}
+
+
+h2 {
+  color: white;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+
+p{
+  color: white;
+  margin: 20px;
+  font-size: 25px;
+}
+
+a {
+  font-family: "Orbitron", sans-serif;
+  padding: 20px;
+  color: white;
+}
+
+
+li{
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  /*Gör så att det inte blir någon linje under länken*/
+}
+
+li a:hover {
+  background-color: rgba(43, 56, 131, 0.65);
+}
+/*När man har pekaren över länken så blir bakgrunden på länken den färg jag angivit*/
+
+footer{
+  background-image: url(../img/space.jpg);
+  margin-top: 0;
+  height: 150px;
+  width: 100%;
+  border-top: solid;
+  border-color: rgb(126, 118, 74);
+}
