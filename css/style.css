@@ -5,7 +5,6 @@ body{
   /*Gömmer den horisontella scroll baren, av någon anledning är headern bredare än sidan
   vilket gör att det annars går att scrolla på åt sidleds vilket gör att tomt område runt
   resten på sidan visas*/
-  background: url(../img/space2.jpeg);
 }
 
 .responsive{
@@ -49,8 +48,8 @@ ul {
 .container2{
   background-image: url(../img/space2.jpeg);
   padding-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .container2 > div{
