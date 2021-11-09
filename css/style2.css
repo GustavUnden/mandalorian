@@ -10,11 +10,11 @@ body{
 }
 
 @media only screen and (max-width: 375px){
-  body {margin-top: 150px;}
-  .container > div {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+  body {margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;}
+
+
 }
 
 header{
