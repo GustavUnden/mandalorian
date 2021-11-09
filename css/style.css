@@ -39,7 +39,7 @@ ul {
 
 
 .background{
-  background: url(../img/background.jpeg);
+  background: url(../img/background.jpeg) center center fixed;
   background-size: cover;
 }
 
